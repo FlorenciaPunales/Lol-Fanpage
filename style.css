@@ -1,0 +1,39 @@
+body {
+    background-image: url(/images/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    backdrop-filter: blur(60px);
+}
+
+footer {
+    color: azure;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    
+}
+footer p {
+    align-items: center;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    width: 100%;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+}
+.videonoblur {
+    position: absolute;
+    width: 90%;  
+    height: 80%;
+}
